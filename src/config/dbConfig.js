@@ -5,7 +5,7 @@ dotenv.config();
 
 const { Pool } = pkg;
 
-// This is the connection to the local database
+// This is the connection to the local Postgres database
 
 // const pool = new Pool({
 //     user: process.env.DB_USER,
