@@ -19,7 +19,12 @@ app.use(express.urlencoded({ limit: "50mb", extended: true }));
 app.use(cors());
 
 app.use("/api/v1/tripadvisor", api);
+app.get("/", (req, res) => {
+  res.send("Welcome to Trip Advisor API");
+});
 
 app.listen(PORT, () => {
   console.log(`server running on port ${PORT}`);
 });
+
+export default app;
