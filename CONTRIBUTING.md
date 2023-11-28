@@ -9,7 +9,7 @@ Thank you for your interest in contributing to Trip Advisor Backend! We welcome 
 2. Clone the forked repository to your local machine:
 
    ```bash
-   git clone https://github.com/your-username/trip-advisor-backend.git
+   git clone https://github.com/your-username/Trip-Advisor-Backend.git
    ```
 
 3. Create a new branch for your changes:
@@ -50,20 +50,3 @@ If you encounter any bugs or other problems with the project, please open an iss
 Please note that this project is released with a [Contributor Code of Conduct](CODE_OF_CONDUCT.md). By participating in this project you agree to abide by its terms.
 
 Thank you for contributing to Trip Advisor Backend!
-
-## Project Structure
-
-The project is structured as follows:
-
-    ```
-    ├── src
-    │   ├── api
-    │   │   ├── middleware
-    |   |   ├── routes
-    │   │   └── api.js
-    │   ├── config
-    │   ├── controllers
-    │   ├── queries
-    │   └── server.js
-
-    ```
